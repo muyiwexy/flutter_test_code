@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow behind the shape -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#255685" />
+            <padding android:left="3dp" android:top="3dp" android:right="3dp" android:bottom="3dp"/>
+        </shape>
+    </item>
+
+    <!-- Circular shape with gradient -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="50%"
+            android:endColor="#DD313030"
+            android:startColor="#B3FFFFFF"
+            android:centerX="50%"
+            android:centerY="100%"
+            android:useLevel="false" />
+        </shape>
+    </item>
+
+</layer-list>

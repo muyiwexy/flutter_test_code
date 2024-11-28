@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="button_backgrounds">
+        <item>@drawable/rounded_button_background_red</item>
+        <item>@drawable/rounded_button_background_yellow</item>
+        <item>@drawable/rounded_button_background_orange</item>
+        <item>@drawable/rounded_button_background_blue</item>
+    </array>
+</resources>
